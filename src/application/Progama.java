@@ -2,6 +2,7 @@ package application;
 
 import boardGame.Board;
 import boardGame.Position;
+import chess.ChessMate;
 
 public class Progama {
 
@@ -9,7 +10,8 @@ public class Progama {
 		// TODO Auto-generated method stub
 	
 		
-		Board board = new Board(8, 8);
+		ChessMate chessMate = new ChessMate();
+		UI.printBoard(chessMate.getPieces());
 	
 
 	}
