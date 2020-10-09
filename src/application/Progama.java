@@ -1,5 +1,6 @@
 package application;
 
+import boardGame.Board;
 import boardGame.Position;
 
 public class Progama {
@@ -8,8 +9,7 @@ public class Progama {
 		// TODO Auto-generated method stub
 	
 		
-		Position pos = new Position(12, 20);
-		System.out.println(pos);
+		Board board = new Board(8, 8);
 	
 
 	}
